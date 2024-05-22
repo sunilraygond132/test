@@ -1,0 +1,56 @@
+<html>
+<body>
+<h1>Dr. APJ Abdul Kalam School of Engineering</h1>
+<fieldset>
+<legend>Student's Registration Form</legend>
+<label>First Name:</label>
+<input type = "First name" name = "Name1">
+<br>
+<label>Last Name:</label>
+<input type = "Second Name" name = "Name2">
+<br>
+<label>Email:</label>
+<input type = "Email" name = "ID">
+<br>
+<label>Password:</label>
+<input type = "Password" name = "Enter password">
+<br>
+<label>Re-type Password:</label>
+<input type = "Password" name = "Re-enter Password">
+<br>
+<label>Contact:</label>
+<input type = "tel" name = "Enter the phone number">
+<br>
+<label>Gender:</label>
+<input type = "radio" name = "Gender"> Male 
+<input type = "radio" name = "Gender"> Female
+<input type = "radio" name = "Gender"> other
+<br>
+<label>Date of Birth:</label>
+<input type = "Date">
+<br>
+<label>Country</label>
+<input type = "text" list = "agerange" name = "Country" placeholder = "CET">
+<datalist id = "agerange">
+<option value = "India">
+<option value = "Nepal"
+<option value = "New Zealand">
+<option value = "Afghanistan">
+<option value = "Armenia">
+<option value = "Australia">
+<option value = "Bangladesh">
+<option value = "china">
+<option value = "Sri lanka">
+</datalist>
+<br>
+<label>Enquiry:</label>
+<textarea name = "comments" rows= "10" cols="50" maxlength="100"></textarea>
+<br>
+<input type = "checkbox" name = "Enquiry"> You can Call/Email Me
+<br>
+<ol>
+<input type = "submit" name = "submit1">
+</ol>
+</fieldset>
+</body>
+</html>
